@@ -2734,3 +2734,7 @@ body.popup__hidden {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
+
+.fa{
+    color: #ffff;
+    } 
