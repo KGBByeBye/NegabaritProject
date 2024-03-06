@@ -136,9 +136,9 @@ reverseBtn.addEventListener('click', function () {
   valueInputLocationTwo.value = valueInput;
 });
 
-const formCalculator = document.querySelector('.form__calculator');
+const formphotogalery = document.querySelector('.form__photogalery');
 
-formCalculator.addEventListener('submit', function(e) {
+formphotogalery.addEventListener('submit', function(e) {
   e.preventDefault();
 
   return;
