@@ -2093,8 +2093,8 @@ body.popup__hidden {
         display: block;
     }
     .services__icon_mobile {
-        width: 100px;
-        height: 70px;
+        width: 140px;
+        height: 110px;
     }
     .services__icon_mobile img {
         width: 100%;
@@ -2117,7 +2117,7 @@ body.popup__hidden {
         padding-right: 0px;
     }
     .services__icon_mobile {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     .services__dontKnow {
         text-align: center;
