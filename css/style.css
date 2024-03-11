@@ -2702,7 +2702,7 @@ body.popup__hidden {
 
 
 
-#work {
+#old_work {
 	border-top: 55px solid transparent;
 	margin-top: -55px;
 	padding: 70px; /* паддинги - без проблем */
@@ -2710,7 +2710,7 @@ body.popup__hidden {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
-#services {
+#old_services {
 	border-top: 55px solid transparent;
 	margin-top: -55px;
 	padding: 70px; /* паддинги - без проблем */
@@ -2718,7 +2718,7 @@ body.popup__hidden {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
-#reviews {
+#old_reviews {
 	border-top: 15px solid transparent;
 	margin-top: -15px;
 	padding: 10px; /* паддинги - без проблем */
@@ -2726,7 +2726,7 @@ body.popup__hidden {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
-#photogalery {
+#old_photogalery {
 	border-top: 55px solid transparent;
 	margin-top: -55px;
 	padding: 70px; /* паддинги - без проблем */
@@ -2738,3 +2738,73 @@ body.popup__hidden {
 .fa{
     color: #ffff;
     } 
+
+
+
+#photogalery {
+    position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+#photogalery:before {
+    content: "";
+    position: absolute;
+    top: -2px; /* равен по модулю толщине border */
+    left: 0;
+    right: 0;
+    border-top: 40px solid #ccc; /* собственно то, ради чего всё затевалось */
+}
+
+#reviews {
+    position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+#reviews:before {
+    content: "";
+    position: absolute;
+    top: -2px; /* равен по модулю толщине border */
+    left: 0;
+    right: 0;
+    border-top: 40px solid #ccc; /* собственно то, ради чего всё затевалось */
+}
+
+#services {
+    position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+#services:before {
+    content: "";
+    position: absolute;
+    top: -2px; /* равен по модулю толщине border */
+    left: 0;
+    right: 0;
+    border-top: 40px solid #ccc; /* собственно то, ради чего всё затевалось */
+}
+
+#work {
+    position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+#work:before {
+    content: "";
+    position: absolute;
+    top: -2px; /* равен по модулю толщине border */
+    left: 0;
+    right: 0;
+    border-top: 40px solid #ccc; /* собственно то, ради чего всё затевалось */
+}
