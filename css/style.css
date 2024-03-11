@@ -1629,7 +1629,7 @@ body.popup__hidden {
         max-width: 91%;
     }
     .reviews__container {
-        max-width: 91%;
+        max-width: 100%;
     }
     .work__container {
         max-width: 91%;
@@ -2093,8 +2093,8 @@ body.popup__hidden {
         display: block;
     }
     .services__icon_mobile {
-        width: 140px;
-        height: 110px;
+        width: 100px;
+        height: 70px;
     }
     .services__icon_mobile img {
         width: 100%;
@@ -2117,7 +2117,7 @@ body.popup__hidden {
         padding-right: 0px;
     }
     .services__icon_mobile {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .services__dontKnow {
         text-align: center;
@@ -2550,8 +2550,8 @@ body.popup__hidden {
         font-size: 15px;
     }
     .reviews__container {
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .reviews__title {
         font-size: 20px;
