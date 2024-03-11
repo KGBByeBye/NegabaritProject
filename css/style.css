@@ -1629,7 +1629,7 @@ body.popup__hidden {
         max-width: 91%;
     }
     .reviews__container {
-        max-width: 100%;
+        max-width: 91%;
     }
     .work__container {
         max-width: 91%;
@@ -2550,8 +2550,8 @@ body.popup__hidden {
         font-size: 15px;
     }
     .reviews__container {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
     .reviews__title {
         font-size: 20px;
@@ -2719,9 +2719,9 @@ body.popup__hidden {
 	background-clip: padding-box;
 }
 #reviews {
-	border-top: 55px solid transparent;
-	margin-top: -55px;
-	padding: 70px; /* паддинги - без проблем */
+	border-top: 15px solid transparent;
+	margin-top: -15px;
+	padding: 10px; /* паддинги - без проблем */
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
