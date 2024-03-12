@@ -114,7 +114,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     max-width: 1165px;
     width: 100%;
     height: 725px;
-    background: url(../img/testava.jpg) center center no-repeat;
+    background: url(../img/header__picture-mobile.png) center center no-repeat;
     background-size: contain;
     position: absolute;
     top: 50px;
@@ -2702,7 +2702,7 @@ body.popup__hidden {
 
 
 
-#old_work {
+#work {
 	border-top: 55px solid transparent;
 	margin-top: -55px;
 	padding: 70px; /* паддинги - без проблем */
@@ -2710,7 +2710,7 @@ body.popup__hidden {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
-#old_services {
+#services {
 	border-top: 55px solid transparent;
 	margin-top: -55px;
 	padding: 70px; /* паддинги - без проблем */
@@ -2718,7 +2718,7 @@ body.popup__hidden {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
-#old_reviews {
+#reviews {
 	border-top: 15px solid transparent;
 	margin-top: -15px;
 	padding: 10px; /* паддинги - без проблем */
@@ -2726,7 +2726,7 @@ body.popup__hidden {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
-#old_photogalery {
+#photogalery {
 	border-top: 55px solid transparent;
 	margin-top: -55px;
 	padding: 70px; /* паддинги - без проблем */
@@ -2741,7 +2741,7 @@ body.popup__hidden {
 
 
 
-#photogalery {
+#oldphotogalery {
     position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
     border-top: 55px solid transparent;
     margin-top: -55px;
@@ -2749,7 +2749,7 @@ body.popup__hidden {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
-#photogalery:before {
+#oldphotogalery:before {
     content: "";
     position: absolute;
     top: -2px; /* равен по модулю толщине border */
@@ -2758,7 +2758,7 @@ body.popup__hidden {
     border-top: 40px solid #ccc; /* собственно то, ради чего всё затевалось */
 }
 
-#reviews {
+#oldreviews {
     position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
     border-top: 55px solid transparent;
     margin-top: -55px;
@@ -2766,7 +2766,7 @@ body.popup__hidden {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
-#reviews:before {
+#oldreviews:before {
     content: "";
     position: absolute;
     top: -2px; /* равен по модулю толщине border */
@@ -2775,7 +2775,7 @@ body.popup__hidden {
     border-top: 40px solid #ccc; /* собственно то, ради чего всё затевалось */
 }
 
-#services {
+#oldservices {
     position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
     border-top: 55px solid transparent;
     margin-top: -55px;
@@ -2783,7 +2783,7 @@ body.popup__hidden {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
-#services:before {
+#oldservices:before {
     content: "";
     position: absolute;
     top: -2px; /* равен по модулю толщине border */
@@ -2792,7 +2792,7 @@ body.popup__hidden {
     border-top: 40px solid #ccc; /* собственно то, ради чего всё затевалось */
 }
 
-#work {
+#oldwork {
     position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
     border-top: 55px solid transparent;
     margin-top: -55px;
@@ -2800,7 +2800,7 @@ body.popup__hidden {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
-#work:before {
+#oldwork:before {
     content: "";
     position: absolute;
     top: -2px; /* равен по модулю толщине border */
