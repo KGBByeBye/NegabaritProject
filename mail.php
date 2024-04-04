@@ -5,10 +5,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['act']) && $_POST['act'
 
     if(isset($_POST['name']) && isset($_POST['phone'])){
         //В переменную $token нужно вставить токен, который нам прислал @botFather
-        $token = "";
+        $token = "7174010455:AAFKY6h5uKh-l902Xpy05uoMwXioQ3CADX8";
 
         //Сюда вставляем chat_id
-        $chat_id = "";
+        $chat_id = "-4181348320";
 
 
         $name = $_POST['name'];
